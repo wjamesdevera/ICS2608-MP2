@@ -204,15 +204,83 @@ left: 360px;
     left: 312px;
 }
 
-
 .Kyle-name {
     position: absolute; 
     top: 550px;
     left: 990px;
 }
 
+/*Chief Comm Director info*/
+.CCD {
+    font-size: 11px;
+    text-align: center; 
+    position: absolute;
+    width: 281px;
+    height: 80px;
+    top: 580px;
+    left: 920px;
+}
+
+.CCD-description {
+    font-family: var(--rubik);
+    font-size: 11px;
+    text-align: center; 
+    max-width: 400px; 
+    position: absolute;
+    top: 585px;
+    left: 880px;
+}
+
 .Mel-name {
     position: absolute; 
-    top: 1005px;
+    top: 1000px;
     left: 360px;
+}
+
+/*Chief Sec info*/
+.CS {
+    font-size: 11px;
+    text-align: center; 
+    position: absolute;
+    width: 281px;
+    height: 80px;
+    top: 1030px;
+    left: 317px;
+}
+
+.CS-description {
+    font-family: var(--rubik);
+    font-size: 11px;
+    text-align: center; 
+    max-width: 400px; 
+    position: absolute;
+    top: 1035px;
+    left: 310px;
+}
+
+.Rica-name {
+    position: absolute; 
+    top: 1000px;
+    left: 948px;
+}
+
+/*Chief Fin info*/
+.CF {
+    font-size: 11px;
+    text-align: center; 
+    position: absolute;
+    width: 281px;
+    height: 80px;
+    top: 1030px;
+    left: 910px;
+}
+
+.CF-description {
+    font-family: var(--rubik);
+    font-size: 11px;
+    text-align: center; 
+    max-width: 400px; 
+    position: absolute;
+    top: 1035px;
+    left: 900px;
 }
