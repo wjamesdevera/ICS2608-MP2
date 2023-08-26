@@ -183,14 +183,27 @@ top: 550px;
 left: 360px;
 }
 
+/*Chief Relations Officer info*/
 .CRO {
+    font-size: 11px;
+    text-align: center; 
+    position: absolute;
     width: 281px;
-height: 80px;
-top: 813px;
-left: 722px;
-font-family: var(--rubik);
-font-size: 12px;
+    height: 80px;
+    top: 580px;
+    left: 317px;
 }
+
+.CRO-description {
+    font-family: var(--rubik);
+    font-size: 11px;
+    text-align: center; 
+    max-width: 400px; 
+    position: absolute;
+    top: 585px;
+    left: 312px;
+}
+
 
 .Kyle-name {
     position: absolute; 
