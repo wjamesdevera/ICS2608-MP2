@@ -22,6 +22,112 @@ dd {
   margin: 0;
 }
 
+/* NIKKI - Style for the container */
+.containercontactus {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .containercontactus h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the contact form */
+  .contact-formcontainercontactus {
+    text-align: left;
+  }
+  
+  .contact-formcontainercontactus label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-formcontainercontactus input[type="text"],
+  .contact-formcontainercontactus textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .contact-formcontainercontactus input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-formcontainercontactus input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for contact details */
+  .contact-detailscontactus {
+    margin-top: 20px;
+  }
+  
+  .contact-detailscontactus strong {
+    display: inline-block;
+    width: 80px;
+  }
+  
+  .headeraboutus {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .headeraboutus h1 {
+    margin: 0;
+  }
+  
+  /* Style for the container */
+  .containeraboutus {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .containeraboutus h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the about text */
+  .about-textaboutus {
+    margin-bottom: 20px;
+  }
+  
+  .about-textaboutus p {
+    margin-bottom: 15px;
+  }
+  
+  .about-textaboutus ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .about-textaboutus li {
+    list-style: disc;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the non-profit statement */
+  .non-profitaboutus {
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-style: italic;
+    border-radius: 4px;
+  }
+
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
 ol[role='list'] {
@@ -154,32 +260,32 @@ footer {
 /* members pictures */
 .Godwyn {
     position: absolute; 
-    top: 251px;
+    top: 230px;
     left: 309px;
 }
 
 .kyle {
     position: absolute; 
-    top: 251px;
+    top: 230px;
     left: 900px;    
 }
 
 .melfred {
     position: absolute; 
-    top: 700px;
+    top: 660px;
     left: 309px;    
 }
 
 .rica {
     position: absolute; 
-    top: 700px;
+    top: 660px;
     left: 900px;    
 }
 
 /*members info*/
 .Godwyn-name {
 position: absolute; 
-top: 550px;
+top: 530px;
 left: 360px;
 }
 
@@ -190,7 +296,7 @@ left: 360px;
     position: absolute;
     width: 281px;
     height: 80px;
-    top: 580px;
+    top: 560px;
     left: 317px;
 }
 
@@ -200,62 +306,130 @@ left: 360px;
     text-align: center; 
     max-width: 400px; 
     position: absolute;
-    top: 585px;
+    top: 565px;
     left: 312px;
 }
 
-
 .Kyle-name {
     position: absolute; 
-    top: 550px;
+    top: 530px;
     left: 990px;
+}
+
+/*Chief Comm Director info*/
+.CCD {
+    font-size: 11px;
+    text-align: center; 
+    position: absolute;
+    width: 281px;
+    height: 80px;
+    top: 560px;
+    left: 920px;
+}
+
+.CCD-description {
+    font-family: var(--rubik);
+    font-size: 11px;
+    text-align: center; 
+    max-width: 400px; 
+    position: absolute;
+    top: 565px;
+    left: 880px;
 }
 
 .Mel-name {
     position: absolute; 
-    top: 1005px;
+    top: 960px;
     left: 360px;
 }
 
-/*Developers' Image*/
-.hector {
-  position: absolute; 
-  top: 240px;
-  left: 1150px;
-  }
-
-.win {
-    position: absolute; 
-    top: 240px;
-    left: center;
-    }
-    
-.mhai {
-  position: absolute; 
-  top: 230px;
-  left: 230px;
-      }
-  
-.nikki {
-  position: absolute; 
-  top: 480px;
-  left: 440px;
-        }
-
-.dirk {
-  position: absolute; 
-  top: 480px;
-  left: 900px;
-  }
-
-  /*Icons*/
-  .facebook {
+/*Chief Sec info*/
+.CS {
+    font-size: 11px;
+    text-align: center; 
     position: absolute;
-    top: 20px;
-    left: 670px;
-  }
-  .gmail {
+    width: 281px;
+    height: 70px;
+    top: 988px;
+    left: 317px;
+}
+
+.CS-description {
+    font-family: var(--rubik);
+    font-size: 11px;
+    text-align: center; 
+    max-width: 400px; 
+    position: absolute;
+    top: 997px;
+    left: 310px;
+}
+
+.Rica-name {
+    position: absolute; 
+    top: 960px;
+    left: 948px;
+}
+
+/*Chief Fin info*/
+.CF {
+    font-size: 11px;
+    text-align: center; 
+    position: absolute;
+    width: 281px;
+    height: 80px;
+    top: 988px;
+    left: 910px;
+}
+
+.CF-description {
+    font-family: var(--rubik);
+    font-size: 11px;
+    text-align: center; 
+    max-width: 400px; 
+    position: absolute;
     top: 997px;
     left: 900px;
-  }
+}
 
+/* dirk - eventts*/
+.pasiklaban {
+    position: absolute;
+    width: 330px;
+    height: 302px;
+    top: 294px;
+    left: 150px;
+}
+
+.pasiklaban-name {
+    position: absolute;
+    width: 208px;
+height: 50px;
+top: 605px;
+left: 210px;
+}
+
+.pasi-date {
+    font-family: var(--rubik);
+    font-size: 12px;
+    position: absolute;
+    width: 208px;
+height: 50px;
+top: 605px;
+left: 160px;
+}
+
+.con {
+    position: absolute;
+    width: 330px;
+    height: 302px;
+    top: 294px;
+    left: 600px;
+}
+
+.camp {
+    position: absolute;
+    width: 330px;
+    height: 302px;
+    top: 294px;
+    left: 1030px;
+}
