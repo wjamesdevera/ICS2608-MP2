@@ -248,16 +248,53 @@ left: 360px;
   left: 900px;
   }
 
+  /*Developers' names*/
+  .leader {
+    position: absolute; 
+    top: 240px;
+    left: 1150px;
+    }
+  
+  .win_name {
+      position: absolute; 
+      top: 240px;
+      left: center;
+      }
+      
+  .hector_name {
+      position: absolute; 
+      top: 240px;
+      left: 1150px;
+      }
+      
+  .mhai_name {
+    position: absolute; 
+    top: 230px;
+    left: 230px;
+        }
+    
+  .nikki_name {
+    position: absolute; 
+    top: 480px;
+    left: 440px;
+          }
+  
+  .dirk_name {
+    position: absolute; 
+    top: 480px;
+    left: 900px;
+    }
+
   /*Icons*/
   .win_facebook {
     position: absolute;
     top: 20px;
-    left: 670px;
+    left: center;
   }
-  .win.gmail {
+  .win_gmail {
     position: absolute;
     top: 997px;
-    left: 900px;
+    left: center;
   }
   .mhai_facebook {
     position: absolute;
