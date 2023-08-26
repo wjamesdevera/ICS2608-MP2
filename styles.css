@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 /* CSS Reset */
 /* Box sizing rules */
 *,
@@ -73,3 +75,38 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* ADD YOUR STYLES HERE */
+
+/* GLOBAL STYLES */
+
+:root {
+    --primary-background: rgb(19, 19, 20);
+    --secondary: rgb(255, 255, 255);
+    --rubik: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: var(--primary-background);
+    color: var(--secondary);
+    font-family: var(--rubik);
+}
+
+/* INDEX STYLE */
+.nav-link {
+    display: flex;
+    gap: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+}
+
