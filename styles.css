@@ -119,7 +119,9 @@ nav {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   flex: 1;
 }
 
@@ -578,79 +580,21 @@ footer {
 }
 
 /* dirk - eventts*/
-.pasiklaban {
-  position: absolute;
-  width: 330px;
-  height: 302px;
-  top: 294px;
-  left: 150px;
+
+.event-card-container {
+  display: flex;
 }
 
-.pasiklaban-name {
-  position: absolute;
-  width: 208px;
-  height: 50px;
-  top: 605px;
-  left: 210px;
+.event-card {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  margin: 0 2rem;
+  max-width: 18rem;
+  padding: .75rem;
 }
 
-.con-name {
-  position: absolute;
-  width: 508px;
-  height: 50px;
-  top: 605px;
-  left: 640px;
-}
-
-.pasi-date {
-  font-family: var(--rubik);
-  font-size: 12px;
-  position: absolute;
-  width: 208px;
-  height: 50px;
-  top: 605px;
-  left: 160px;
-}
-.con-date {
-  font-family: var(--rubik);
-  font-size: 12px;
-  position: absolute;
-  width: 208px;
-  height: 50px;
-  top: 605px;
-  left: 630px;
-}
-
-.con {
-  position: absolute;
-  width: 330px;
-  height: 302px;
-  top: 294px;
-  left: 600px;
-}
-
-.camp {
-  position: absolute;
-  width: 330px;
-  height: 302px;
-  top: 294px;
-  left: 1030px;
-}
-
-.camp-name {
-  position: absolute;
-  width: 530px;
-  height: 302px;
-  top: 594px;
-  left: 1030px;
-}
-
-.camp-date {
-  font-family: var(--rubik);
-  font-size: 12px;
-  position: absolute;
-  width: 330px;
-  height: 302px;
-  top: 594px;
-  left: 1030px;
+.event-card > p {
+  font-size: .875rem;
+  line-height: 1.25rem;
 }
