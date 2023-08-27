@@ -120,7 +120,6 @@ nav {
 main {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex: 1;
 }
 
@@ -156,6 +155,7 @@ footer {
 
 .about {
   display: flex;
+  justify-content: center;
   gap: 3rem;
 }
 
@@ -192,15 +192,13 @@ footer {
 
 /* Style for the container */
 .containeraboutus {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: left;
+  max-width: 50%;
+  padding: 1.25rem;
 }
 
-.containeraboutus h2 {
-  margin-bottom: 20px;
-} */
+.containeraboutus > h2 {
+  margin-bottom: 1.25rem;
+}
 
 /* NIKKI - Style for the container */
 .containercontactus {
