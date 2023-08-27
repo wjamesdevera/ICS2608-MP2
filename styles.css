@@ -290,127 +290,36 @@ footer {
 }
 
 /* DEVELOPERS PAGE */
-
-/*Developers' Image*/
-.hector {
-  position: absolute;
-  top: 240px;
-  left: 1130px;
+.dev-profile {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
-.win {
-  position: absolute;
-  top: 240px;
-  left: center;
+.dev-profile img {
+  width: 100%;
+  height: auto;
 }
 
-.mhai {
-  position: absolute;
-  top: 230px;
-  left: 230px;
+.developers-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  justify-content: center;
+  gap: 5rem;
 }
 
-.nikki {
-  position: absolute;
-  top: 480px;
-  left: 440px;
+.dev-card {
+  text-align: center;
 }
 
-.dirk {
-  position: absolute;
-  top: 480px;
-  left: 900px;
+.dev-links {
+  display: flex;
+  justify-content: center;
 }
-
-/*Developers' names*/
-.leader {
-  position: absolute;
-  top: 385px;
-  left: center;
-}
-
-.win_name {
-  position: absolute;
-  top: 405px;
-  left: center;
-}
-
-.hector_name {
-  position: absolute;
-  top: 395px;
-  left: 1120px;
-}
-
-.mhai_name {
-  position: absolute;
-  top: 395px;
-  left: 220px;
-}
-
-.nikki_name {
-  position: absolute;
-  top: 630px;
-  left: 440px;
-}
-
-.dirk_name {
-  position: absolute;
-  top: 630px;
-  left: 890px;
-}
-
-/*Icons*/
-.win_facebook {
-  position: absolute;
-  top: 70px;
-  left: 680px;
-}
-.win_gmail {
-  position: absolute;
-  top: 70px;
-  left: 740px;
-}
-.mhai_facebook {
-  position: absolute;
-  top: 70px;
-  left: 250px;
-}
-.mhai_gmail {
-  position: absolute;
-  top: 70px;
-  left: 310px;
-}
-.hector_facebook {
-  position: absolute;
-  top: 70px;
-  left: 1160px;
-}
-.hector_gmail {
-  position: absolute;
-  top: 70px;
-  left: 1220px;
-}
-.nikki_facebook {
-  position: absolute;
-  top: 300px;
-  left: 460px;
-}
-.nikki_gmail {
-  position: absolute;
-  top: 300px;
-  left: 520px;
-}
-.dirk_facebook {
-  position: absolute;
-  top: 300px;
-  left: 925px;
-}
-.dirk_gmail {
-  position: absolute;
-  top: 300px;
-  left: 985px;
-}
-
 
 /* EVENTS PAGE */
 
