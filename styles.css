@@ -158,6 +158,7 @@ footer {
 .about {
   display: flex;
   justify-content: center;
+  max-width: 90%;
   gap: 3rem;
 }
 
